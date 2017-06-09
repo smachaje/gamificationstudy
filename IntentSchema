@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ],
+      "intent": "AnswerIntent"
+    },
+    {
+      "slots": [
+        {
+          "name": "Answer",
+          "type": "LIST_OF_ANSWERS"
+        }
+      ],
+      "intent": "AnswerOnlyIntent"
+    },
+    {
+      "intent": "DontKnowIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.RepeatIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}
